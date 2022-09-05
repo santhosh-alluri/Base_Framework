@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-05T16:24:43 IST" name="Suite" finished-at="2022-09-05T16:25:15 IST" duration-ms="32381">
+    <groups>
+    </groups>
+    <test started-at="2022-09-05T16:24:43 IST" name="Test" finished-at="2022-09-05T16:25:15 IST" duration-ms="32381">
+      <class name="com.tests.Login_DataDriven">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:24:43 IST" name="init" finished-at="2022-09-05T16:25:09 IST" duration-ms="26055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:25:09 IST" name="preSetup" finished-at="2022-09-05T16:25:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:25:09 IST" name="Setup" finished-at="2022-09-05T16:25:09 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginToApplication()[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:25:09 IST" name="loginToApplication" description="This TC will perform valid login" finished-at="2022-09-05T16:25:15 IST" duration-ms="6078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:25:15 IST" name="captureResult" finished-at="2022-09-05T16:25:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=Login_DataDriven.loginToApplication()[pri:0, instance:com.tests.Login_DataDriven@3a7442c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Login_DataDriven@3a7442c7]" started-at="2022-09-05T16:25:15 IST" name="tearDown" finished-at="2022-09-05T16:25:15 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.Login_DataDriven -->
+      <class name="com.tests.Login">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:24:42 IST" name="start" finished-at="2022-09-05T16:24:43 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:24:43 IST" name="init" finished-at="2022-09-05T16:25:09 IST" duration-ms="26595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:25:09 IST" name="preSetup" finished-at="2022-09-05T16:25:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="loginToApplication()[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:25:09 IST" name="loginToApplication" description="This TC will perform valid login" finished-at="2022-09-05T16:25:14 IST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:25:14 IST" name="captureResult" finished-at="2022-09-05T16:25:14 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=Login.loginToApplication()[pri:0, instance:com.tests.Login@3e27ba32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:25:14 IST" name="tearDown" finished-at="2022-09-05T16:25:14 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.tests.Login@3e27ba32]" started-at="2022-09-05T16:25:15 IST" name="closeApplication" finished-at="2022-09-05T16:25:15 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.tests.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
