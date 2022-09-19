@@ -34,7 +34,7 @@ public class Login extends BaseClass {
 	{ 
 		driver = openBrowser(browser);
 		UI = new SeleniumUIUtils(driver);
-		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 	}
 	
@@ -50,12 +50,14 @@ public class Login extends BaseClass {
 	{
 		
 		// login.userName(driver).sendKeys("test");
-		UI.sendKeys(login.userName(driver), "Admin1");
-		logger.log(LogStatus.INFO, "entered username as : "+ "Admin1");
-		UI.sendKeys(login.password(driver), "password");
-		logger.log(LogStatus.INFO, "entered password as : "+ "Admin1");
+		UI.sendKeys(login.userName(driver), "standard_user");
+		logger.log(LogStatus.INFO, "entered username as : "+ "standard_user");
+		UI.sendKeys(login.password(driver), "secret_sauce");
+		logger.log(LogStatus.INFO, "entered password as : "+ "secret_sauce");
 		UI.click(login.loginButton(driver));
 		logger.log(LogStatus.INFO, "clicked on button");
+		
+		UI.click(driver.findElement(By.cssSelector("#add-to-cart-sauce-labs-backpack")));
    //   	UI.click(driver.findElement(By.id("xxyz")));
 	//	logger.log(LogStatus.INFO, "clicked on unknow button");
 
